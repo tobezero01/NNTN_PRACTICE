@@ -1,0 +1,8 @@
+Information extraction from text is an important task in text min- ing. The general goal of information extraction is to discover structured information from unstructured or semi-structured text. For example, given the following English sentence,
+In 1998, Larry Page and Sergey Brin founded Google Inc.
+we can extract the following information,
+FounderOf(Larry Page, Google Inc.), FounderOf(Sergey Brin, Google Inc.), FoundedIn(Google Inc., 1998 ).
+C.C. Aggarwal and C.X. Zhai (eds.), Mining Text Data, DOI 10.1007/978-1-4614-3223-4_2,	11
+© Springer Science+Business Media, LLC 2012
+ 
+Such information can be directly presented to an end user, or more commonly, it can be used by other computer systems such as search engines and database management systems to provide better services to end users.
